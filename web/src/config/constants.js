@@ -1,11 +1,10 @@
 // API Configuration
-export const API_URL = process.env.VITE_API_URL || 'http://localhost:5173/api/v1';
+export const API_URL = process.env.VITE_API_URL;
 
 // Office Options
 export const OFFICE_OPTIONS = [
   { value: 'Malaga', label: 'Málaga' },
   { value: 'Marbella', label: 'Marbella' },
-
   { value: 'Fuengirola', label: 'Fuengirola' }
 ];
 
